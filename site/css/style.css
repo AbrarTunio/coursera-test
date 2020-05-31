@@ -8,9 +8,9 @@
 	}
 	body {
 	
-		background-color: white; margin: 0;
+		background-color: green; margin: 0;
 	}		
-	span {
+	section {
 		padding-left: 2%;
 		border: 1px solid black; 
 		margin: 4%; 
@@ -69,7 +69,7 @@
 
 .row {
 	width : 100%;
-	
+
 }
 
 /**************FOR DESKTOP VIEW****************/
