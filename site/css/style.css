@@ -1,14 +1,15 @@
 	* {
 		box-sizing: border-box; /*As I can not continue writing this for every box in #box1,2,3 so I just put it here, so it could be applied to everybox. Besides, I can not add this one to body selector as box-sizing does not support inheritance property*/
-	/*	margin: 0; /*To reset default margin of browser in overall*/
-	/*	padding: 0;/*To reset default margin of browser in overall*/
+		margin: 0; /*To reset default margin of browser in overall*/
+		padding: 0;/*To reset default margin of browser in overall*/
 	}
 	.Abrarfont {
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
 	body {
 	
-		background-color: green; margin: 0;
+		background-color: green; 
+
 	}		
 	section {
 		padding-left: 2%;
