@@ -1,19 +1,16 @@
-	* {
+/*	* {
 		box-sizing: border-box; /*As I can not continue writing this for every box in #box1,2,3 so I just put it here, so it could be applied to everybox. Besides, I can not add this one to body selector as box-sizing does not support inheritance property*/
-		margin: 0; /*To reset default margin of browser in overall*/
-		padding: 0;/*To reset default margin of browser in overall*/
-	}
-	.Abrarfont {
+/*	}
+	
+	body {
 		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
-	body {
-		background-color: green; 
-	}		
+	
+			
 	section {
-		padding-left: 2%;
-		border: 1px solid black; 
+		border: 1px solid black;
+		padding-left: 10px;
 		margin: 4%; 
-		width: 400px;
 		overflow: hidden;
 		background-color: gray;
 	}
@@ -26,11 +23,11 @@
 		border-left: 1px solid black;
 		border-bottom: 1px solid black;
 		text-align: center;
+		margin: 0%;
 		margin-left: 70%;
-		margin-top: 0%;
 		/*margin-left: auto; /*This is a tip from lecture*/
 		/*margin-right: auto;/*This is a tip from lecture*/
-		overflow: hidden;
+/*		overflow: hidden;
 	}
 /*	#box1 {
 		position: absolute;
@@ -45,9 +42,9 @@
 		position: absolute;
 		left: 68%;
 	}*/
-	#content {
+/*	#content {
 		color: black;
-		/*text-align: justify;*/
+		/*text-align: justify;
 	}
 
 	#InnerBox1 {	
@@ -64,14 +61,15 @@
 		background-color: orange;
 	}
 	
-/*simple responsive framework*/
+/*simple responsive framewor
 
 .row {
 	width : 100%;
+	margin: 0%;
 
 }
 
-/**************FOR DESKTOP VIEW****************/
+/**************FOR DESKTOP VIEW****************
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
 	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
@@ -115,7 +113,7 @@
 	}					
 	}
 
-/**************FOR TABLET VIEW***************/
+/**************FOR TABLET VIEW***************
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
 	.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
@@ -159,7 +157,7 @@
 	}					
 	}
 
-/*************MOBILE VIEW**************/
+/*************MOBILE VIEW**************
 @media (max-width: 767px) {
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
 	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
